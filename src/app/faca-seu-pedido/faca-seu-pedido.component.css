@@ -1,0 +1,45 @@
+#pedido{
+    background-color: #181818;
+}
+
+/*Configurações dos linkes*/
+a{
+    text-decoration: none;
+}
+.fa.fa-whatsapp{
+    color: white;
+}
+
+.fa.fa-whatsapp:hover{
+    color: #44C554;
+}
+
+.fa.fa-instagram{
+    color: white;
+}
+
+.fa.fa-instagram:hover{
+    color: #cf25b9;
+}
+/*Configurações dos linkes*/
+
+/*Configurações de texto*/
+.escrita {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.escritatexto{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+
+/*Configurações de texto*/

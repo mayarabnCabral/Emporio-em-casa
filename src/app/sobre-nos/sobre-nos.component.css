@@ -1,0 +1,138 @@
+#sobre {
+    background-color: #181818;
+}
+
+.pb-6 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*Alinhar img com texto*/
+.alinharcomimg {
+    vertical-align: middle;
+}
+
+/*Alinhar img com texto*/
+
+/*Configurações de texto*/
+.escrita {
+    color: rgb(159, 159, 159);
+    font-size: x-large;
+    padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+/*Configurações de texto*/
+
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 1280px) {
+    img.esconder{
+        display: none;
+    }
+    img.esconder3{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1279px) {
+    .col-md-6{
+        padding-top: 12% !important;
+        padding-bottom: 12% !important;
+        padding-left: 8% !important;
+        padding-right: 0% !important;
+    }
+    .escrita{
+        padding-top: 12% !important;
+        padding-bottom: 12% !important;
+        padding-left: 18% !important;
+    }
+
+    img.esconder{
+        display: none;
+    }
+
+    img.esconder2{
+       width: 800px;
+    }
+
+    img.esconder3{
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) {
+    img.esconder{
+        display: none;
+    }
+
+    img.esconder2{
+       width: 400px;
+    }
+
+    img.esconder3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    img.esconder{
+        src:("https://i.imgur.com/vSC59Es.gif");
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin-left: 35%;
+        object-fit: cover;
+    }
+
+    img.esconder2{
+        display: none;
+    }
+    
+    img.esconder3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px){
+    p{
+       margin-top: 50px;
+       margin-bottom: 0px;
+    }
+
+    .col-md-6{
+        padding-left: 0px;
+    }
+
+    .pb-6{
+        padding: 0px;
+    }
+   
+    img.esconder2{
+        display: none;
+    }
+    img.esconder3{
+        display: none;
+    }
+
+    img.esconder{
+        src:("https://i.imgur.com/vSC59Es.gif");
+        width: 150px;
+        display: flex;
+        align-items: center;
+        margin-left: 25%;
+        object-fit: cover;
+    }
+    
+
+    .escrita {
+        color: rgb(218, 218, 218);
+        font-size: x-large;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+    }
+}
+/*Responsividade*/
