@@ -1,0 +1,48 @@
+/*Configurações das setas do carrossel*/
+
+.carousel-control-next{
+    border: 0px;
+    opacity: 0.06;
+}
+
+.carousel-control-next-icon{
+    filter: invert(100%);
+}
+
+.carousel-control-prev{
+    border: 0px;
+    opacity: 0.06;
+}
+
+.carousel-control-prev-icon{
+    filter: invert(100%);
+}
+
+/*Configurações das setas do carrossel*/
+
+/*Responsividade*/
+@media screen and (min-width:1279px){
+    img{
+        width: 100vw !important;
+        height: 93vh !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px){
+    img{
+        width: 100vw !important;
+        height: 80vh !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:480px) {
+    img{
+        width: 100vw !important;
+        height: 63vh !important;
+        object-fit: cover;
+    }
+}
+
+/*Responsividade*/

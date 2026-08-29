@@ -1,0 +1,48 @@
+/*fundo do menu*/
+.bg-preto{
+    background-color: #181818;
+}
+/*fundo do menu*/
+
+.navbar-expand-lg{
+    border-color: white !important;
+}
+
+/*Cor e efeito das letras do menu*/
+.letraMenu{
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.letraMenu:hover{
+    color: #EBA136 !important;
+}
+
+.under-link {
+    margin: 3px;
+    color: #EBA136;
+    display: inline-block;
+    position: relative;
+}
+.under-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background-color: #f36c4a;
+    transition: width 0.4s ease-out;
+}
+.under-link:hover::before {
+    width: 100%;
+}
+
+.under-link:hover {
+    color: #f36c4a;
+}
+/*Cor e efeito das letras do menu*/
+
+nav{
+    scroll-behavior: smooth
+}
